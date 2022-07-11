@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^28.1.2"
+  },
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "CLI application which takes information about the employee and generate the HTML page",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjunsharman06/team-profile-generator.git"
+  },
+  "author": "Arjun Sharman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arjunsharman06/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/arjunsharman06/team-profile-generator#readme"
+}
