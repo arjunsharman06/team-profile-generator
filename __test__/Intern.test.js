@@ -1,9 +1,9 @@
 const Intern = require('../lib/Intern');
 
-test('create an intern object',() =>{
+test('create an intern object', () => {
 
     // Contructor call
-    const intern = new Intern('John',10,'xyz@xyz.com','School');
+    const intern = new Intern('John', 10, 'xyz@xyz.com', 'School');
 
     expect(intern.name).toBe('John');
     expect(intern.id).toStrictEqual(expect.any(Number));
@@ -11,37 +11,37 @@ test('create an intern object',() =>{
     expect(intern.school).toBe('School');
 });
 
-    //getName
-    test('get the intern name', ()=>{
-        const intern = new Intern('John',10,'xyz@xyz.com','School');
+//getName
+test('get the intern name', () => {
+    const intern = new Intern('John', 10, 'xyz@xyz.com', 'School');
 
-        expect(intern.getName()).toBe('John');
-    });
+    expect(intern.getName()).toBe('John');
+});
 
-    //getId()
-    test('get the intern id', ()=>{
-        const intern = new Intern('John',10,'xyz@xyz.com','School');
+//getId()
+test('get the intern id', () => {
+    const intern = new Intern('John', 10, 'xyz@xyz.com', 'School');
 
-        expect(intern.getId()).toBe(10);
-    });
+    expect(intern.getId()).toBe(10);
+});
 
-    //getEmail()
-    test('get the intern email', ()=>{
-        const intern = new Intern('John',10,'xyz@xyz.com','School');
+//getEmail()
+test('get the intern email', () => {
+    const intern = new Intern('John', 10, 'xyz@xyz.com', 'School');
 
-        expect(intern.getEmail()).toBe("xyz@xyz.com");
-    });
+    expect(intern.getEmail()).toBe("xyz@xyz.com");
+});
 
-    //getRole()
-    test('get the intern role', ()=>{
-        const intern = new Intern('John',10,'xyz@xyz.com','School');
+//getRole()
+test('get the intern role', () => {
+    const intern = new Intern('John', 10, 'xyz@xyz.com', 'School');
 
-        expect(intern.getRole()).toBe(Intern);
-    });
+    expect(intern.getRole()).toBe(Intern);
+});
 
-    //getSchool()
-    test('get the intern school', ()=>{
-        const intern = new Intern('John',10,'xyz@xyz.com','School');
-        expect(intern.getSchool()).toBe("School"
-            );
-    }); 
+//getSchool()
+test('get the intern school', () => {
+    const intern = new Intern('John', 10, 'xyz@xyz.com', 'School');
+    expect(intern.getSchool()).toBe("School"
+    );
+}); 
