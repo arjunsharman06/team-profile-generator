@@ -36,7 +36,7 @@ test('get the intern email', () => {
 test('get the intern role', () => {
     const intern = new Intern('John', 10, 'xyz@xyz.com', 'School');
 
-    expect(intern.getRole()).toBe(Intern);
+    expect(intern.getRole()).toBe("Intern");
 });
 
 //getSchool()

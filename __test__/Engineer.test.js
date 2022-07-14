@@ -36,7 +36,7 @@ test('get the engineer email', () => {
 test('get the engineer role', () => {
     const engineer = new Engineer('John', 10, 'xyz@xyz.com', 'joker');
 
-    expect(engineer.getRole()).toBe(Engineer);
+    expect(engineer.getRole()).toBe("Engineer");
 });
 
 //getGithub()
