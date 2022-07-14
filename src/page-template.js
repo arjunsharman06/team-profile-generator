@@ -31,7 +31,7 @@ function generatePage(data) {
         <header>
           <p>My Team</p>
         </header>
-        <section class="container d-md-flex flex-row">${html}</section>
+        <section class="container d-md-flex flex-row flex-wrap">${html}</section>
       </body>
     </html>
     `
@@ -84,7 +84,7 @@ function createEngineer(data) {
       </li>
       <li class="list-group-item">
         <label>Github : </label>
-        <a href="https://github.com/" + ${data.getGitHub()}>${data.getGitHub()}</a>
+        <a href="https://github.com/${data.getGitHub()}">${data.getGitHub()}</a>
       </li>
     </ul>
   </div>
